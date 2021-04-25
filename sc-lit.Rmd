@@ -65,7 +65,7 @@ CR$Papers[1:10,]
 mcr <- citations(df, 
                  field = "article", 
                  sep = ";")
-cbind(mcr$Cited[1:20])
+cbind(mcr$Cited[1:10])
 ```
 
 ### Most cited authors
@@ -75,7 +75,7 @@ cbind(mcr$Cited[1:20])
 mcr <- citations(df, 
                  field = "author", 
                  sep = ";")
-cbind(mcr$Cited[1:20])
+cbind(mcr$Cited[1:10])
 ```
 
 ### Author dominance ranking
@@ -158,14 +158,14 @@ The historiographic map is a chronological network map of the most relevant dire
 # historical citation network
 options(width = 100)
 histResults <- histNetwork(df, 
-                           min.citations = 2, 
+                           min.citations = 1, 
                            sep = ";")
 
 # plot historical co-citation network
 hnet <- histPlot(histResults, 
-                 n = 50, 
+                 n = 500, 
                  size = 6, 
-                 labelsize = 2)
+                 labelsize = 4)
 ```
 
 ### Yearly occurrences of top keywords/terms

@@ -436,7 +436,7 @@ relevant direct citations resulting from this bibliographic collection.
 # historical citation network
 options(width = 100)
 histResults <- histNetwork(df, 
-                           min.citations = 2, 
+                           min.citations = 1, 
                            sep = ";")
 ```
 
@@ -448,9 +448,9 @@ histResults <- histNetwork(df,
 ``` r
 # plot historical co-citation network
 hnet <- histPlot(histResults, 
-                 n = 50, 
+                 n = 500, 
                  size = 6, 
-                 labelsize = 2)
+                 labelsize = 4)
 ```
 
 <img src="sc-lit_files/figure-gfm/hdcn-1.png" width="100%" />
