@@ -172,7 +172,7 @@ hnet <- histPlot(histResults,
 
 ```{r key.growth, out.width = "100%", dpi = 300, echo=TRUE, warning=FALSE}
 topKW = KeywordGrowth(df, 
-                      Tag = "DE", 
+                      Tag = "ID", 
                       sep = ";", 
                       top=10, 
                       cdf=TRUE)

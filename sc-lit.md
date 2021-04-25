@@ -466,7 +466,7 @@ hnet <- histPlot(histResults,
 
 ``` r
 topKW = KeywordGrowth(df, 
-                      Tag = "DE", 
+                      Tag = "ID", 
                       sep = ";", 
                       top=10, 
                       cdf=TRUE)
@@ -474,33 +474,52 @@ topKW = KeywordGrowth(df,
 topKW
 ```
 
-    ##   Year CAHABA RIVER CHICKASAWHAY RIVER CORBICULA FLUMINEA DIET ANALYSIS DIET DIVERSITY
-    ## 1 2013            0                  0                  1             1              1
-    ## 2 2014            0                  0                  1             1              1
-    ## 3 2015            0                  0                  1             1              1
-    ## 4 2016            0                  0                  1             1              1
-    ## 5 2017            0                  0                  1             1              1
-    ## 6 2018            0                  0                  1             1              1
-    ## 7 2019            0                  0                  1             1              1
-    ## 8 2020            1                  1                  1             1              1
-    ##   GEOGRAPHICAL INFORMATIONAL SYSTEMS (GIS) GRAPTEMYS INVASIVE SPECIES
-    ## 1                                        1         0                1
-    ## 2                                        1         0                1
-    ## 3                                        1         0                1
-    ## 4                                        1         0                1
-    ## 5                                        1         0                1
-    ## 6                                        1         0                1
-    ## 7                                        1         0                1
-    ## 8                                        1         1                1
-    ##   NONMETRIC MULTIDIMENSIONAL SCALING (NMDS) OKLAHOMA
-    ## 1                                         1        1
-    ## 2                                         1        1
-    ## 3                                         1        1
-    ## 4                                         1        1
-    ## 5                                         1        1
-    ## 6                                         1        1
-    ## 7                                         1        1
-    ## 8                                         1        1
+    ##    Year STERNOTHERUS CARINATUS TESTUDINES ADAPTATION COLD DEHYDRATION FEMALE FREEZING HIBERNATION
+    ## 1  1981                      1          1          0    0           0      0        0           0
+    ## 2  1982                      1          1          0    0           0      0        0           0
+    ## 3  1983                      1          1          0    0           0      0        0           0
+    ## 4  1984                      1          1          0    0           0      0        0           0
+    ## 5  1985                      1          1          0    0           0      0        0           0
+    ## 6  1986                      1          1          0    0           0      0        0           0
+    ## 7  1987                      1          1          0    0           0      0        0           0
+    ## 8  1988                      1          1          0    0           0      0        0           0
+    ## 9  1989                      1          1          0    0           0      0        0           0
+    ## 10 1990                      1          1          0    0           0      0        0           0
+    ## 11 1991                      1          1          0    0           0      0        0           0
+    ## 12 1992                      1          1          0    0           0      0        0           0
+    ## 13 1993                      1          1          0    0           0      0        0           0
+    ## 14 1994                      1          1          0    0           0      0        0           0
+    ## 15 1995                      1          1          0    0           0      0        0           0
+    ## 16 1996                      1          1          0    0           0      0        0           0
+    ## 17 1997                      1          1          0    0           0      0        0           0
+    ## 18 1998                      1          1          0    0           0      0        0           0
+    ## 19 1999                      1          1          0    0           0      0        0           0
+    ## 20 2000                      1          1          0    0           0      0        0           0
+    ## 21 2001                      2          2          2    2           2      2        2           2
+    ## 22 2002                      4          3          2    2           2      2        2           2
+    ##    KINOSTERNIDAE STERNOTHERUS
+    ## 1              1            1
+    ## 2              1            1
+    ## 3              1            1
+    ## 4              1            1
+    ## 5              1            1
+    ## 6              1            1
+    ## 7              1            1
+    ## 8              1            1
+    ## 9              1            1
+    ## 10             1            1
+    ## 11             1            1
+    ## 12             1            1
+    ## 13             1            1
+    ## 14             1            1
+    ## 15             1            1
+    ## 16             1            1
+    ## 17             1            1
+    ## 18             1            1
+    ## 19             1            1
+    ## 20             1            1
+    ## 21             1            1
+    ## 22             2            2
 
 ``` r
 # plot results
