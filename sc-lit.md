@@ -249,30 +249,20 @@ CR$Papers[1:10,]
 mcr <- citations(df, 
                  field = "article", 
                  sep = ";")
-cbind(mcr$Cited[1:20])
+cbind(mcr$Cited[1:10])
 ```
 
-    ##                                                                                                                                                                                                                                                                                   [,1]
-    ## IVERSON, J.B., REPRODUCTION IN THE MEXICAN MUD TURTLE KINOSTERNON INTEGRUM (1999) JOURNAL OF HERPETOLOGY, 33, PP. 144-148                                                                                                                                                            2
-    ## MAHMOUD, I.Y., FEEDING BEHAVIOR IN KINOSTERNID TURTLES (1968) HERPETOLOGICA, 24, PP. 300-305                                                                                                                                                                                         2
-    ## (1967) CALORIFIC EQUIVALENTS FOR STUDIES IN ECOLOGICAL ENERGETICS, P. 54. , CUMMINS. K.W. SECOND EDITION. PITTSBURGH, PA: PYMATUNING LABORATORY OF ECOLOGY, UNIVERSITY OF PITTSBURGH                                                                                                 1
-    ## (2012) NUISANCE AQUATIC SPECIES DATABASE, , HTTP://NAS.ER.USGS.GOV/, USGS. UNITED STATES DEPARTMENT OF THE INTERIOR, WASHINGTON, D.C., USA. AVAILABLE AT18 JANUARY 2014 (LAST ACCESSED                                                                                               1
-    ## (2012) R: A LANGUAGE AND ENVIRONMENT FOR STATISTICAL COMPUTING, , R DEVELOPMENT CORE TEAM. R FOUNDATION FOR STATISTICAL COMPUTING, VIENNA, AUSTRIA                                                                                                                                   1
-    ## A REVIEW OF THE ADAPTIVE STRATEGY USED BY HATCHLING PAINTED TURTLES TO SURVIVE COLD STRESS (1995) HERPETOL REV, 26, PP. 8-11                                                                                                                                                         1
-    ## AHLE, R.C., (1991) A STUDY OF THREE CREEKS IN NACOGDOCHES COUNTY, TEXAS USING AN INDEX OF BIOLOGICAL DIVERSITY, , M.SC. THESIS. STEPHEN F. AUSTIN STATE UNIVERSITY, NACOGDOCHES, TX                                                                                                  1
-    ## ALCALDE, L., DEROCCO, N.N., ROSSET, S.D., FEEDING IN SYNTOPY: DIET OF HYDROMEDUSA TECTIFERA AND PHRYNOPS HILARII (CHELIDAE) (2010) CHELONIAN CONSERVATION AND BIOLOGY, 9, PP. 33-44                                                                                                  1
-    ## ATKINSON, C.A., RAZOR-BACKED MUSK TURTLE (STERNOTHERUS CARINATUS) DIET ACROSS A GRADIENT OF INVASION (2013) HERPETOLOGICAL CONSERVATION AND BIOLOGY, 8, PP. 561-570                                                                                                                  1
-    ## ATKINSON, C.L., FIRST, M.R., COVICH, A.P., OPSAHL, S.P., GOLLADAY, S.W., SUSPENDED MATERIAL AVAILABILITY AND FILTRATIONBIODEPOSITION PROCESSES PERFORMED BY A NATIVE AND INVASIVE BIVALVE SPECIES IN STREAMS (2011) HYDROBIOLOGIA, 667, PP. 191-204                                  1
-    ## ATKINSON, C.L., OPSAHL, S.P., COVICH, A.P., GOLLADAY, S.W., CONNER, L.M., STABLE ISOTOPIC SIGNATURES, TISSUE STOICHIOMETRY, AND NUTRIENT CYCLING (C AND N) OF NATIVE AND INVASIVE FRESHWATER BIVALVES (2010) JOURNAL OF THE NORTH AMERICAN BENTHOLOGICAL SOCIETY, 29, PP. 496-505    1
-    ## AUFFENBERG, W., DISPLAY BEHAVIOR IN TORTOISES (1977) AMERICAN ZOOLOGIST, 17, PP. 241-250                                                                                                                                                                                             1
-    ## AUFFENBERG, W., WEAVER, W.G., JR., GOPHERUS BERLANDIERI IN SOUTHEASTERN TEXAS (1969) BULLETIN OF FLORIDA STATE MUSEUM OF BIOLOGICAL SCIENCE, 13, PP. 141-203                                                                                                                         1
-    ## BARZILAY, S., AGGRESSIVE BEHAVIOR IN THE WOOD TURTLE, CLEMMYS INSCULPTA (1980) JOURNAL OF HERPETOLOGY, 14, PP. 89-91                                                                                                                                                                 1
-    ## BEAUPRE, S.J., JACOBSON, E.R., LILLYWHITE, H.B., ZAMUDIO, K., (2004) GUIDELINES FOR THE USE OF LIVE AMPHIBIANS AND REPTILES IN FIELD AND LABORATORY RESEARCH, P. 43. , SECOND EDITION. AMERICAN SOCIETY OF ICHTHYOLOGISTS AND HERPETOLOGISTS                                         1
-    ## BECKER, H., BEOBACHTUNGEN BEI DER HALTUNG UND NACHZUCHT VON STERNOTHERUS CARINATUS (GRAY 1856) (1992) SALAMANDRA, 28, PP. 9-13                                                                                                                                                       1
-    ## BENTLEY, P.J., SCHMIDT-NIELSEN, K., CUTANEOUS WATER LOSS IN REPTILES (1966) SCIENCE, 151, PP. 1547-1549                                                                                                                                                                              1
-    ## BERRY, J.F., POPULATION EFFECTS OF ECOLOGICAL SYMPATRY ON MUSK TURTLES IN NORTHERN FLORIDA (1975) COPEIA, 1975, PP. 692-701                                                                                                                                                          1
-    ## BERRY, J.F., SHINE, R., SEXUAL SIZE-DIMORPHISM AND SEXUAL SELECTION IN TURTLES (ORDER TESTUDINES) (1980) OECOLOGIA (BERLIN), 44, PP. 185-191                                                                                                                                         1
-    ## BERRY, J.F., THE POPULATION EFFECTS OF ECOLOGICAL SYMPATRY ON MUSK TURTLES IN NORTHERN FLORIDA (1975) COPEIA, 1975, PP. 692-700                                                                                                                                                      1
+    ##                                                                                                                                                                                                                                                     [,1]
+    ## IVERSON, J.B., REPRODUCTION IN THE MEXICAN MUD TURTLE KINOSTERNON INTEGRUM (1999) JOURNAL OF HERPETOLOGY, 33, PP. 144-148                                                                                                                              2
+    ## MAHMOUD, I.Y., FEEDING BEHAVIOR IN KINOSTERNID TURTLES (1968) HERPETOLOGICA, 24, PP. 300-305                                                                                                                                                           2
+    ## (1967) CALORIFIC EQUIVALENTS FOR STUDIES IN ECOLOGICAL ENERGETICS, P. 54. , CUMMINS. K.W. SECOND EDITION. PITTSBURGH, PA: PYMATUNING LABORATORY OF ECOLOGY, UNIVERSITY OF PITTSBURGH                                                                   1
+    ## (2012) NUISANCE AQUATIC SPECIES DATABASE, , HTTP://NAS.ER.USGS.GOV/, USGS. UNITED STATES DEPARTMENT OF THE INTERIOR, WASHINGTON, D.C., USA. AVAILABLE AT18 JANUARY 2014 (LAST ACCESSED                                                                 1
+    ## (2012) R: A LANGUAGE AND ENVIRONMENT FOR STATISTICAL COMPUTING, , R DEVELOPMENT CORE TEAM. R FOUNDATION FOR STATISTICAL COMPUTING, VIENNA, AUSTRIA                                                                                                     1
+    ## A REVIEW OF THE ADAPTIVE STRATEGY USED BY HATCHLING PAINTED TURTLES TO SURVIVE COLD STRESS (1995) HERPETOL REV, 26, PP. 8-11                                                                                                                           1
+    ## AHLE, R.C., (1991) A STUDY OF THREE CREEKS IN NACOGDOCHES COUNTY, TEXAS USING AN INDEX OF BIOLOGICAL DIVERSITY, , M.SC. THESIS. STEPHEN F. AUSTIN STATE UNIVERSITY, NACOGDOCHES, TX                                                                    1
+    ## ALCALDE, L., DEROCCO, N.N., ROSSET, S.D., FEEDING IN SYNTOPY: DIET OF HYDROMEDUSA TECTIFERA AND PHRYNOPS HILARII (CHELIDAE) (2010) CHELONIAN CONSERVATION AND BIOLOGY, 9, PP. 33-44                                                                    1
+    ## ATKINSON, C.A., RAZOR-BACKED MUSK TURTLE (STERNOTHERUS CARINATUS) DIET ACROSS A GRADIENT OF INVASION (2013) HERPETOLOGICAL CONSERVATION AND BIOLOGY, 8, PP. 561-570                                                                                    1
+    ## ATKINSON, C.L., FIRST, M.R., COVICH, A.P., OPSAHL, S.P., GOLLADAY, S.W., SUSPENDED MATERIAL AVAILABILITY AND FILTRATIONBIODEPOSITION PROCESSES PERFORMED BY A NATIVE AND INVASIVE BIVALVE SPECIES IN STREAMS (2011) HYDROBIOLOGIA, 667, PP. 191-204    1
 
 ### Most cited authors
 
@@ -281,30 +271,20 @@ cbind(mcr$Cited[1:20])
 mcr <- citations(df, 
                  field = "author", 
                  sep = ";")
-cbind(mcr$Cited[1:20])
+cbind(mcr$Cited[1:10])
 ```
 
-    ##               [,1]
-    ## IVERSON J B     15
-    ## GIBBONS J W     12
-    ## LINDEMAN P V    12
-    ## CONGDON J D     11
-    ## VOGT R C        10
-    ## LOVICH J E       8
-    ## ERNST C H        7
-    ## MAHMOUD I Y      7
-    ## BROOKS R J       5
-    ## COSTANZO J P     5
-    ## LEE R E          5
-    ## TINKLE D W       5
-    ## GALBRAITH D A    4
-    ## LITZGUS J D      4
-    ## PACKARD G C      4
-    ## PACKARD M J      4
-    ## SCHOENER T W     4
-    ## SHINE R          4
-    ## BARBOUR R W      3
-    ## BERRY J F        3
+    ##              [,1]
+    ## IVERSON J B    15
+    ## GIBBONS J W    12
+    ## LINDEMAN P V   12
+    ## CONGDON J D    11
+    ## VOGT R C       10
+    ## LOVICH J E      8
+    ## ERNST C H       7
+    ## MAHMOUD I Y     7
+    ## BROOKS R J      5
+    ## COSTANZO J P    5
 
 ### Author dominance ranking
 
